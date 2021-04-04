@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
+  background-image: url(./2039809.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 .app {
@@ -18,14 +22,21 @@ body {
   header {
     text-align: center;
     font-family: Helvetica, sans-serif;
+
     h1 {
       margin: 50px 0 30px 0;
       font-size: 5rem;
       font-weight: 2rem;
     }
+
     p {
       font-size: 2rem;
     }
+  }
+
+  div {
+    width: 5%;
+    height: auto;
   }
 
   .pads {
